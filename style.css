@@ -1,0 +1,90 @@
+body{
+    background-color: #f0f0f0 !important;
+}
+
+.header>h3{
+    display: flex;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.card-img-overlay {
+    top: 5%;
+    left: 5%;
+}
+
+.posted-on {
+    font-style: italic;
+}
+
+.posted-on a:hover {
+    text-decoration: none;
+}
+
+.blog-post-p {
+    line-height: 1.875rem;
+}
+
+.img-shadow {
+    box-shadow: 1px 1px 10px #777;
+}
+  
+label{
+    padding: 0px !important;
+}
+
+aside {
+    background-color: #e3e3e36a;
+}
+
+aside a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+
+aside li {
+    list-style-type: none;
+}
+
+.aside1,.aside2 {
+    background: url(../images/sidebar_section_background.png) repeat-x;
+    border-radius: 11px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+footer {
+    background: #222;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: #777777;
+}
+
+footer a {
+    color: #777777;
+}
+
+footer li {
+    list-style-type: square;
+}
+
+footer li::marker {
+    color: #777;
+}
